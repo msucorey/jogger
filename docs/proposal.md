@@ -37,13 +37,17 @@ This project will be implemented with the following technologies:
 - `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 
-In addition to the webpack entry file, there will be three scripts involved in this project:
+In addition to the webpack entry file, there will be several scripts involved in this project:
 
-`game.js`: The logic for this game will initially be combined in a single file.
+`game_view.js`: Stores a `Game` instance and a `canvas` context the game renders into.
 
-`index.html`: This will be the root element from which the game renders in the user's favorite browser.
+`game.js`: Master file synchronizing all other elements of a game instance.
 
-`style.css`: All styling will be contained here to decouple visual presentation.
+`jogger.js`: The element the player controls and navigates around obstacles.
+
+`moving_object.js`: The parent class for moving obstacles such as `Cars` and `Buses`.
+
+`static_object.js`: The parent class for static obstacles such as `Building`, `Construction`, and `Goodies`.
 
 ### Implementation Timeline
 
