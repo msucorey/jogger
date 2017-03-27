@@ -25,7 +25,7 @@ In addition, this project will include:
 ### Wireframe
 
 This app will consist of a single screen with game board, game controls, and nav links to the Github, my LinkedIn,
-and the About modal.  Game controls will include Start and Reset buttons as well as a slider to control the speed.  The main view will be a city or neighborhood organized into blocks and very reminiscent of a **Pac-Man** layout.
+and the About modal.  Game controls will include a Start button and keyboard directional controls to move the jogger.  The main view will be a city or neighborhood organized into blocks and very reminiscent of a **Pac-Man** layout.
 
 ![wireframes](/docs/wireframe.png)
 
