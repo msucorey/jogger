@@ -18,10 +18,12 @@ body {
   font-weight: 1100;
   color: yellow;
 }
-#icon {
-  height: 400px;
+#instructions {
   width: 200px;
-  opacity: 0;
+  color: blue;
+  background: gray;
+  padding: 10px;
+  opacity: 0.75;
 }
 
 #center-elements {
@@ -59,6 +61,9 @@ h4 {
 #distance-remaining {
   font-size: 50px;
   border-bottom: 1px solid black;
+}
+#message-console {
+  padding: 5px;
 }
 
 #bottom-elements {
