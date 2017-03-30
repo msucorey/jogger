@@ -1,0 +1,44 @@
+#left-pane {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#title {
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  font-style: oblique;
+  font-size: 70px;
+  font-weight: 1100;
+}
+#icon {
+  height: 400px;
+  width: 200px;
+}
+
+#center-elements {
+  display: flex;
+  justify-content: space-around;
+}
+
+#right-pane {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 200px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 20px;
+}
+
+#reset-button {
+  text-align: center;
+  height: auto;
+  width: 200px;
+  background-color: yellow;
+  border: 5px solid black;
+  margin-left: 500px;
+}

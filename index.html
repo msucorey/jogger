@@ -2,18 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+      <link rel="stylesheet" href="./assets/style.css" type="text/css"/>
+    <title>Jogger</title>
   </head>
   <body>
-    <div class="center-elements">
-      <img src="" />
+    <div id="center-elements">
+      <div id="left-pane">
+        <h1 id="title">Jogger!<h1>
+        <img id="icon" src="./images/stick_jogger1.jpg" />
+      </div>
       <canvas id="game-canvas"></canvas>
       <script type="application/javascript" src="vendor/keymaster.js"></script>
       <script type="application/javascript" src="lib/bundle.js"></script>
-      <div class="right-pane">
-        <h1 id="game-score">innerHTML</h1>
-        <h1 id="distance-remaining>">innerHTML</h1>
-        <h1 id="message-console">innerHTML</h1>
+      <div id="right-pane">
+        <h3>Score</h3>
+        <h4 id="game-score">innerHTML</h4>
+        <h3>Distance Remaining</h3>
+        <h4 id="distance-remaining">innerHTML</h4>
+        <h3>Message Console</h3>
+        <h4 id="message-console">innerHTML</h4>
       </div>
     </div>
     <h1 id="reset-button">JOG!</h2>
