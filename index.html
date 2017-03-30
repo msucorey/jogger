@@ -2,27 +2,46 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <link rel="stylesheet" href="./assets/style.css" type="text/css"/>
+    <link rel="stylesheet" href="./assets/style.css" type="text/css"/>
+    <link rel="stylesheet" href="./assets/modals.css" type="text/css"/>
     <title>Jogger</title>
   </head>
   <body>
     <div id="center-elements">
       <div id="left-pane">
         <h1 id="title">Jogger!<h1>
-        <img id="icon" src="./images/stick_jogger1.jpg" />
+        <div id="button-wrapper">
+          <h2 id="reset-button">JOG!</h2>
+        </div>
       </div>
       <canvas id="game-canvas"></canvas>
       <script type="application/javascript" src="vendor/keymaster.js"></script>
       <script type="application/javascript" src="lib/bundle.js"></script>
       <div id="right-pane">
-        <h3>Score</h3>
-        <h4 id="game-score">innerHTML</h4>
+        <h3>Current Race</h3>
+        <h4 id="game-race">innerHTML</h4>
+        <div class="spacer"></div>
         <h3>Distance Remaining</h3>
-        <h4 id="distance-remaining">innerHTML</h4>
-        <h3>Message Console</h3>
-        <h4 id="message-console">innerHTML</h4>
+        <h4 id="distance-remaining"></h4>
+        <div class="spacer"></div>
+        <h3></h3>
+        <h4 id="message-console"></h4>
       </div>
     </div>
-    <h1 id="reset-button">JOG!</h2>
+    <div id="bottom-elements">
+      <div style="width:200px"></div>
+      <div style="width:200px"></div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Jogger is a game by Corey Wofford</h1>
+      </div>
+
+    </div>
   </body>
 </html>
