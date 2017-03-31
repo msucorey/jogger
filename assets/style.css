@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .myicons {
   cursor: pointer;
   margin: 0 35px;
