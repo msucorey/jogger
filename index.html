@@ -7,10 +7,14 @@
     <title>Jogger</title>
   </head>
   <body>
-    <embed src="./assets/rocky.mp3" autostart="true" hidden="true" loop="true">
+    <audio id="bkgd-music" hidden="true" loop="true">
+      <source src="./assets/rocky.mp3" type="audio/mpeg"/>
+    </audio>
     <div id="center-elements">
       <div id="left-pane">
         <h1 id="title">Jogger!<h1>
+          <h2 id="mute-text">MUTE</h2>
+          <img id="mute-button" src="./images/audio.png"/>
         <h3 id="instructions">
           HIT START BUTTON BELOW AND USE ARROW KEYS TO NAVIGATE
         </h3>
