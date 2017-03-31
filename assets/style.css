@@ -12,6 +12,7 @@ body {
   height: 500px;
 }
 #title {
+  cursor: pointer;
   text-align: center;
   height: 100px;
   width: 200px;
