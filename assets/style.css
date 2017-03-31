@@ -20,7 +20,17 @@ body {
   font-size: 65px;
   font-weight: 1100;
   color: yellow;
-  margin: 10px;
+  margin: 0px;
+}
+#my-links{
+  display: flex;
+  justify-content: space-between;
+}
+.myicons {
+  cursor: pointer;
+  margin: 0 35px;
+  height: 35px;
+  width: auto;
 }
 #mute-text {
   margin: 10px;
