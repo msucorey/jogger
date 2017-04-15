@@ -84,14 +84,3 @@ There are many directions this game could eventually go.  Some anticipated updat
 
 - [ ] Have bonus goodies appear (akin to fruit in **Pac-Man**)
 - [ ] Have power-ups available giving the jogger extra speed or damage resistance
-
-README
-xxxLink to live version
-xxxInstructions on how to play/use the project
-xxxList of techs/languages/plugins/APIs used
-xxxTechnical implementation details for anything worth mentioning
-xxxBasically anything you had to stop and think about before building
-xxxCode snippets for these (make sure it looks good)
-xxxTo-dos/future features
-xxxNo .DS_Stores
-xxxOrganize into /assets and /lib
