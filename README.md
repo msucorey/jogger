@@ -46,11 +46,11 @@ Ultimately, this vision evolved into a more advanced interface to include audio 
 
 This project was implemented with the following technologies:
 
-- Object-oriented JavaScript and `jQuery` for overall structure and game logic,
+- Object-oriented JavaScript for overall structure and game logic,
 - `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 
-In addition to the webpack entry file, there will be several scripts involved in this project:
+In addition to the webpack entry file, there are several scripts involved in this project:
 
 `game_view.js`: Stores a `Game` instance and a `canvas` context the game renders into.
 
@@ -64,7 +64,7 @@ In addition to the webpack entry file, there will be several scripts involved in
 
 ### Key Implementation Details
 
-Game logic is relatively straight forward with exeception of the collision algorithms.
+Game logic is relatively straight forward with exception of the collision algorithms.
 
 First, since every object in the game is a rectangle, a simple rectangle intersection check is performed to see if any two objects collide.
 ```JavaScript
